@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from tabulate import tabulate
+
 from sklearn.preprocessing import minmax_scale
 
 pd.set_option('display.max_columns',15)
@@ -69,7 +71,7 @@ def preprocesProcedura(file):
                   'not_processed_answer', 'answer_valence', 'answer_arousal']].copy())
 
     # print("PO JOINIE")
-    print(data)
+    print(tabulate(data, headers='keys', tablefmt='psql'))
     print(data.dtypes)
 
     return data
