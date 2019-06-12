@@ -13,3 +13,5 @@ Project for Artifitial Inteligence Course
 * not_processed_answer - odpowiedź badanej osoby w skali ciągłej -1;1 po lewej wartość wartościowości, po prawej podniecalności
 * answer_valence - odpowiedź badanej osoby po przeskalowaniu od 1 do 9 
 * answer_arousal - jak wyżej tylko z podnieceniem
+* class_valence - przyporządkowanie do klasy 0 lub 1
+* clace_arousal - przyporządkowanie do klasy 0 lub 1
